@@ -18,6 +18,12 @@ public class TallerGuit {
         // TODO code application logic here
         
         int count = 0;
+        for (int i = 2; i <= 100; i++)
+            {
+
+                
+                    count = 0;
+            }
     }
     
 }
