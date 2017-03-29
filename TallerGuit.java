@@ -17,8 +17,9 @@ public class TallerGuit {
     public static void main(String[] args) {
         // TODO code application logic here
         
-        int count = 0;
-        for (int i = 2; i <= 100; i++)
+         int count = 0;
+
+            for (int i = 2; i <= 100; i++)
             {
 
                 for (int x = 1; x <= i; x++)
