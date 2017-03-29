@@ -21,7 +21,19 @@ public class TallerGuit {
         for (int i = 2; i <= 100; i++)
             {
 
-                
+                for (int x = 1; x <= i; x++)
+                {
+                    if (i % x == 0)
+                    {
+                        count = count + 1;
+
+                    }
+                }
+                    if (count < 3)
+                    {
+                        System.out.print( i + ", ");
+                        
+                    }
                     count = 0;
             }
     }
